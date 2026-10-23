@@ -209,7 +209,7 @@ int cmp_price(const void *a, const void *b) {
 
 void print_table_header(void) {
     printf(CLR_BOLD "+----------+----------------------------------+--------------------------+------------+-------------+\n");
-    printf("| %-8s | %-32s | %-24s | %-10s | %-11s |\nAcc. No", "Title", "Author", "Price", "Status");
+    printf("| %-8s | %-32s | %-24s | %-10s | %-11s |\n", "Acc. No", "Title", "Author", "Price", "Status");
     printf("+----------+----------------------------------+--------------------------+------------+-------------+" CLR_RESET "\n");
 }
 
